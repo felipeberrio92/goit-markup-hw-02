@@ -1,0 +1,91 @@
+:root{
+    --color_blue: rgba(33, 150, 243, 1);
+    --color_black: rgb(33, 33, 33, 1);
+    --color_gray: rgba(117, 117, 117, 1);
+    --color_footer: rgba(255, 255, 255, 0.6);
+    --color_white: rgba(255, 255, 255, 1);
+
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a:any-link{
+    text-decoration: none;
+    
+}
+a:visited{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+.site_navegation{
+color: var(--color_black);
+
+}
+.logo{
+    color: var(--color_blue);
+    text-decoration: none;
+}
+.header_link{
+    color: var(--color_black);
+}
+
+.header_link.current{
+    color: var(--color_blue);
+
+}
+
+.cel_contact{
+    color:var(--color_gray);
+}
+.email_contact{
+    color:var(--color_gray);
+}
+.cel_contact:active{
+    color: var(--color_blue);
+}
+.email_contact:active{
+    color: var(--color_blue);
+}
+.head_title{
+    color: var(--color_white);
+    background-color: rgba(47, 48, 58, 1);
+    text-align: center;
+}
+.button{
+    color: var(--color_white);
+    background-color: var(--color_blue);
+    border-radius: 4px;
+}
+h2{
+    text-align: center;
+}
+.about_item{
+    color: var(--color_black);
+}
+.about_item:hover{
+    color: var(--color_gray);
+}
+p{
+    color:var(--color_gray)
+}
+.main__footer{
+    background-color: var(--color_black);
+}
+.footer_address{
+    color: var(--color_white);
+}
+.footer_contact{
+    color: var(--color_footer);
+}
+.proyect_buttons:{
+    border: none;
+
+}
+.button_item:active{
+    background-color: var(--color_blue);
+    color: var(--color_white);
+}

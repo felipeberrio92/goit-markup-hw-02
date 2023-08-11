@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root{
     --color_blue: rgba(33, 150, 243, 1);
@@ -24,14 +25,24 @@ a:visited{
 ul{
     list-style: none;
 }
+
 .site_navegation{
     color: var(--color_black);
-
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02;
+    
 }
 .logo{
     color: var(--color_blue);
     text-decoration: none;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03;
+    
 }
+
 .header_link{
     color: var(--color_black);
 }
@@ -47,6 +58,12 @@ ul{
 .email_contact{
     color:var(--color_gray);
 }
+.cel_contact:hover{
+    color:var(--color_blue);
+}
+.email_contact:hover{
+    color:var(--color_blue);
+}
 .cel_contact:active{
     color: var(--color_blue);
 }
@@ -56,34 +73,93 @@ ul{
 .head_title{
     color: var(--color_white);
     background-color: rgba(47, 48, 58, 1);
-    text-align: center;
+    text-align:center;
+}
+
+.main_title{
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06;
 }
 .button{
     color: var(--color_white);
     background-color: var(--color_blue);
     border-radius: 4px;
+    width: 261px;
+    height: 50px;
 }
-h2{
-    text-align: center;
-}
+
 .about_item{
     color: var(--color_black);
+    font-weight: 700;
+    font-family: inherit;
+    line-height: 1.1;
+    size: 14px;
+    letter-spacing: 0.03;
+
 }
 .about_item:hover{
     color: var(--color_gray);
 }
-p{
+.about_text{
+    font-family:inherit;
     color:var(--color_gray);
     font-weight: 400;
+    line-height: 1.7;
+    size: 14px;
+    letter-spacing: 0.03;
+}
+.headings{
+    color: var(--color_black);
+    font-family: inherit;
+    text-align:center;
+    font-weight: 700;
+    line-height: 1.16;
+    size: 36px;
+    letter-spacing: 0.03;
+}
+.job_title{
+    color: var(--color_gray);
+    font-family: inherit;
+    font-weight: 400;
+    size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03;
+}
+.job_name{
+    color: var(--color_black);
+    font-family: inherit;
+    font-weight: 500;
+    size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03;
 }
 .main__footer{
     background-color: var(--color_black);
 }
 .footer_address{
     color: var(--color_white);
+    font-family: inherit;
+    font-weight: 400;
+    size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03;
 }
 .footer_contact{
     color: var(--color_footer);
+    font-family: inherit;
+    font-weight: 400;
+    size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03;
+}
+.footer_address:hover{
+    color: var(--color_blue);
+}
+.footer_contact:hover{
+    color: var(--color_blue);
 }
 .proyect_buttons:{
     border: none;
@@ -92,4 +168,7 @@ p{
 .button_item:active{
     background-color: var(--color_blue);
     color: var(--color_white);
+}
+.portafolio{
+    display: none;
 }

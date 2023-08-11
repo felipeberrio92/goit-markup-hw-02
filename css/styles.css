@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root{
     --color_blue: rgba(33, 150, 243, 1);
     --color_black: rgb(33, 33, 33, 1);
@@ -22,7 +25,7 @@ ul{
     list-style: none;
 }
 .site_navegation{
-color: var(--color_black);
+    color: var(--color_black);
 
 }
 .logo{
@@ -70,7 +73,8 @@ h2{
     color: var(--color_gray);
 }
 p{
-    color:var(--color_gray)
+    color:var(--color_gray);
+    font-weight: 400;
 }
 .main__footer{
     background-color: var(--color_black);

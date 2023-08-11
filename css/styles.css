@@ -46,6 +46,9 @@ ul{
 .header_link{
     color: var(--color_black);
 }
+.header_link:hover{
+    color: var(--color_blue);
+}
 
 .header_link.current{
     color: var(--color_blue);
@@ -86,6 +89,7 @@ ul{
 .button{
     color: var(--color_white);
     background-color: var(--color_blue);
+    cursor: pointer;
     border-radius: 4px;
     width: 261px;
     height: 50px;
@@ -161,7 +165,12 @@ ul{
 .footer_contact:hover{
     color: var(--color_blue);
 }
-.proyect_buttons:{
+
+/*inicio pagina portfolio */
+.portafolio{
+    display: none;
+}
+.list_button{
     border: none;
 
 }
@@ -169,6 +178,30 @@ ul{
     background-color: var(--color_blue);
     color: var(--color_white);
 }
-.portafolio{
-    display: none;
+.button_item:hover{
+    background-color: var(--color_blue);
+    color: var(--color_white);
+    font-family: inherit;
+    line-height: 1.6;
+    font-weight: 500;
+    size: 16px;
+    letter-spacing: 0.03;
+    text-decoration: none;
+    cursor: pointer;
+}
+.proyect_name{
+    color: var(--color_black);
+    font-family: inherit;
+    font-weight: 700;
+    size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06;
+}
+.categories{
+    color: var(--color_gray);
+    font-family: inherit;
+    font-weight: 400;
+    size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03;
 }

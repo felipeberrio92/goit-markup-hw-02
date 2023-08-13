@@ -171,10 +171,20 @@ ul{
     display: none;
 }
 .list_button{
-    border: none;
+    border-style: none;
+    text-align: center;
+    
+}
+.button_item{
+    font-family: inherit;
+    border-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    border-radius: 4px;
 
 }
-.button_item:active{
+.button_item:focus{
     background-color: var(--color_blue);
     color: var(--color_white);
 }
@@ -187,6 +197,7 @@ ul{
     size: 16px;
     letter-spacing: 0.03;
     cursor: pointer;
+    
 }
 .proyect_name{
     color: var(--color_black);
